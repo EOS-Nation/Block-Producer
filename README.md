@@ -12,16 +12,24 @@ EOS Nation will be submiting it's candidacy for Block Producer (BP) on EOS's blo
 
 ### Singled Threaded (Q1 & Q2)
 
-- Hosting in (Canada / United States)
+Proposed Hardware specifications for the first two quarters or as long as the EOS software continues to be single threaded. 
+
+> Note: Due to AWS's geographical hardware limitations, 4TB RAM is currently not available in AWS's Canada (Central) region.
+
+> Note: EOS.io has not yet defined the EOS Storage contract, the BP storage requirements may be upgraded if required.
+
+- Hosted in Canada
 - Ubuntu Server 16.10 
-- 2x EC2 (x1.32xlarge / x1e.32xlarge)
+- 2x EC2 (x1.32xlarge)
 - 128 Cores / node
-- (2TB / 4TB) RAM
+- 2TB RAM / node
+- 2 x 1920GB (SSD) / node
 
 ### Multi-Threaded/Parallelism (Q3 & Q4)
 
-- Hosting in (Canada / United States)
+- Hosted in Canada
 - Ubuntu Server 16.10 
-- 10x EC2 (x1.32xlarge / x1e.32xlarge)
+- 10x EC2 (x1.32xlarge)
 - 128 Cores / node
-- (2TB / 4TB) RAM
+- 2TB RAM / node
+- 2 x 1920GB (SSD) / node
