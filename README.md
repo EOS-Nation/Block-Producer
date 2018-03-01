@@ -1,4 +1,4 @@
-# EOS Nation - Block Producer
+# [EOS Nation](http://eosnation.io) - Block Producer
 
 EOS Nation will be submiting it's candidacy for Block Producer (BP) on EOS's blockchain. This document has been prepared to highlight some of the core values & beliefs behind the EOS Nation organization.
 
