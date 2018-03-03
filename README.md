@@ -1,14 +1,4 @@
-# EOS Nation - Block Producer
-
-EOS Nation will be submiting its candidacy to become a Block Producer (BP) on EOS's blockchain. This document has been prepared to highlight some of the core values & the proposed hardware specification of EOS Nation.
-
-## Core Values
-
-- Integrity & Transparency
-- Contributing back to the EOS Community
-- Supporting [Open Source Projects](https://github.com/EOS-Nation/eosnation-open-source)
-
-## Hardware
+# EOS Nation - Block Producer Hardware
 
 Proposed hardware specifications for the first (x4) quarters based on the EOS.io software.
 
