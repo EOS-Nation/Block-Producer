@@ -20,9 +20,10 @@ Hybrid approach - Cloud (AWS) for main full node & backup/secondary full nodes l
   - Calgary, AB (proposed)
   - Vancouver, BC (proposed)
 
-## Hardware
+## Technical Specifications
+### Hardware
 
-Proposed hardware specifications for the first four (x4) quarters based on the EOS.io software development.
+Proposed technical specifications and total expenditure of resources for BP.
 
 **Notes:**
 
