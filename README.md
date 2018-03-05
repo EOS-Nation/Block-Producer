@@ -1,6 +1,6 @@
 # EOS Nation - Block Producer Hardware
 
-Proposed hardware specifications for the first (x4) quarters based on the EOS.io software.
+Proposed hardware specifications for the first four (x4) quarters based on the EOS.io software development.
 
 **Notes:**
 
@@ -12,6 +12,12 @@ Proposed hardware specifications for the first (x4) quarters based on the EOS.io
 - **Geographical Region** Toronto, Canada
 - **Polical Region** Canada
 - **Operating System** Ubuntu Server 16.10
+
+### Singled Threaded (Election)
+
+If nominated to run the EOS election, only 1 Elastic Compute Cloud (EC2) instance will be running the main BP.
+
+- **Nodes** 1x EC2 (x1.32xlarge)
 - **vCPUs** 128 Cores
 - **Memory** 2TB RAM
 - **Storage (ipfs)** 2 x 1920GB (SSD)
@@ -22,15 +28,17 @@ Proposed hardware specifications for the first (x4) quarters based on the EOS.io
 Only 1 Elastic Compute Cloud (EC2) instance will be running the main BP. In the event of a failure of the main node, the 2nd EC2 node will act as a backup and will become the main node until the main node has been resolved.
 
 - **Nodes** 2x EC2 (x1.32xlarge)
-- **vCPUs** 128 Cores (max)
-- **Memory** 2TB RAM (max)
-- **Storage (ipfs)** 4TB (SSD)
+- **vCPUs** 128 Cores
+- **Memory** 2TB RAM
+- **Storage (ipfs)** 2 x 1920GB (SSD)
+- **Network** 25 Gigabit
 
 ### Multi-Threaded/Parallelism (Q3 & Q4)
 
 Once the EOS.io software can be hosted on a cluster of Nodes, the EOS Nation BP will upgrade the number of EC2 instances as the EOS infrastructure increases in demand.
 
 - **Nodes** 12x EC2 (x1.32xlarge)
-- **vCPUs** 1536 Cores (max)
-- **Memory** 24TB RAM (max)
-- **Storage (ipfs)** 48TB (SSD)
+- **vCPUs** 128 Cores (1536 cores max)
+- **Memory** 2TB RAM (24TB RAM max)
+- **Storage (ipfs)** 2 x 1920GB (SSD) (48TB SSD max)
+- **Network** 25 Gigabit
