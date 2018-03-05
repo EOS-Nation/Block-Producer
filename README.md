@@ -36,9 +36,9 @@ Proposed technical specifications and total expenditure of resources for BP.
 - **Polical Region** Canada
 - **Operating System** Ubuntu Server 16.10
 
-### Singled Threaded (Election)
+### BP "appointed"
 
-If nominated to run the EOS election, only 1 Elastic Compute Cloud (EC2) instance will be running the main BP.
+If EOS Nation is "appointed" as Block Producer, only 1 Elastic Compute Cloud (EC2) instance will be running the main BP for the duration of the first election.
 
 - **Nodes** 1x EC2 (x1.32xlarge)
 - **vCPUs** 128 Cores
@@ -46,9 +46,9 @@ If nominated to run the EOS election, only 1 Elastic Compute Cloud (EC2) instanc
 - **Storage (ipfs)** 2 x 1920GB (SSD)
 - **Network** 25 Gigabit
 
-### Singled Threaded (Q1 & Q2)
+### BP "elected"
 
-Only 1 Elastic Compute Cloud (EC2) instance will be running the main BP. In the event of a failure of the main node, the 2nd EC2 node will act as a backup and will become the main node until the main node has been resolved.
+If EOS Nation is "elected" as Block Producer, two Elastic Compute Cloud (EC2) instances will be running as full EOS nodes.  In the event of a failure of the main BP node, the secondary BP node will act as a backup and will become the main node. Minimal downtime shall be the main prorioty in case of a full node failure.
 
 - **Nodes** 2x EC2 (x1.32xlarge)
 - **vCPUs** 128 Cores
@@ -56,12 +56,19 @@ Only 1 Elastic Compute Cloud (EC2) instance will be running the main BP. In the 
 - **Storage (ipfs)** 2 x 1920GB (SSD)
 - **Network** 25 Gigabit
 
-### Multi-Threaded/Parallelism (Q3 & Q4)
+### Scaling Plan
 
-Once the EOS.io software can be hosted on a cluster of Nodes, the EOS Nation BP will upgrade the number of EC2 instances as the EOS infrastructure increases in demand.
+EOS Nation represents a global represenation of Canada, each major Canadian city will be expected to host an EOS full node which will be under the support of EOS Nation. Proper training of setting up & maintaining an EOS full node will be provided by EOS Nation. Once a city has proven they have the technical knowledge and bare metal hardware to provide support as a full node, their node will be added to the EOS Nation cluster BP and they will start to collect EOS Rewards.
 
-- **Nodes** 12x EC2 (x1.32xlarge)
-- **vCPUs** 128 Cores (1536 cores max)
-- **Memory** 2TB RAM (24TB RAM max)
-- **Storage (ipfs)** 2 x 1920GB (SSD) (48TB SSD max)
-- **Network** 25 Gigabit
+### Geographical Expansion
+
+**Planned** will require to be fully operational before June 3, 2018.
+
+- Ottawa, ON - [EOS Nation](https://www.meetup.com/EOS-Nation)
+- Toronto, ON - [EOS Toronto](https://www.meetup.com/EOS-Toronto)
+
+**Proposed** are **not** required to be operational before June 3, 2018.
+
+- Montreal, QC
+- Vancouver, BC
+- Calgary, AB
