@@ -1,4 +1,26 @@
-# EOS Nation - Block Producer Hardware
+# EOS Nation - Block Producer
+
+## Official block producer candidate name.
+
+EOS Nation
+
+## Location of company headquarters.
+
+Canada
+
+## Expected location of servers.
+
+Hybrid approach - Cloud (AWS) for main full node & backup/secondary full nodes located in different geographical regions using bare metal.
+
+- **Cloud** For the cloud infrastructure we will be hosted our virtual instances with [AWS Canada](https://aws.amazon.com/canada/aws-in-canada/) in the `Canada (Central)` region.
+- **Bare Metal** The first two cities chosen by EOS Nation will be involved in the initial EOS testnet, the following expantion cities will soon follow after the EOS launch date.
+  - Toronto, ON (testnet)
+  - Ottawa, ON (testnet)
+  - Montreal, QC (proposed)
+  - Calgary, AB (proposed)
+  - Vancouver, BC (proposed)
+
+## Hardware
 
 Proposed hardware specifications for the first four (x4) quarters based on the EOS.io software development.
 
