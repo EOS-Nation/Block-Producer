@@ -14,10 +14,15 @@ server {
 
     server_name eosn.io www.eosn.io;
 
+    # Certificate(s) and private key
     ssl_certificate /etc/letsencrypt/live/www.eosn.io/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/www.eosn.io/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
+
+    # openssl dhparam 4096 -out /etc/letsencrypt/ssl-dhparams.pem;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    # SSL options
+    include /etc/letsencrypt/options-ssl-nginx.conf;
 
     location / {
         proxy_pass http://eosiod;
