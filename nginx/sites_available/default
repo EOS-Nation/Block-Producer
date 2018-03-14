@@ -1,0 +1,43 @@
+# EOS Nation BP Server Configuration
+#
+# https://eosnation.io - EOS Nation Community
+# https://eosn.io - EOS Nation BP
+#
+
+upstream eosiod {
+    server 0.0.0.0:8888;
+}
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+
+    server_name eosn.io www.eosn.io;
+
+    ssl_certificate /etc/letsencrypt/live/www.eosn.io/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/www.eosn.io/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    location / {
+        proxy_pass http://eosiod;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}
+
+server {
+    if ($host = eosn.io) {
+        return 301 https://$host$request_uri;
+    }
+
+    if ($host = www.eosn.io) {
+        return 301 https://$host$request_uri;
+    }
+
+    listen 80;
+    listen [::]:80;
+    server_name eosn.io www.eosn.io;
+    return 404;
+}
