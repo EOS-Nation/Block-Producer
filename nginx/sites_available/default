@@ -5,7 +5,11 @@
 #
 
 upstream eosiod {
-    server 0.0.0.0:8888;
+    server 127.0.0.1:8888;
+}
+
+upstream p2p {
+    server 0.0.0.0:9876;
 }
 
 server {
@@ -18,7 +22,7 @@ server {
     ssl_certificate /etc/letsencrypt/live/www.eosn.io/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/www.eosn.io/privkey.pem;
 
-    # openssl dhparam 4096 -out /etc/letsencrypt/ssl-dhparams.pem;
+    # openssl dhparam 4096 -out /etc/letsencrypt/ssl-dhparam.pem
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
     # SSL options
