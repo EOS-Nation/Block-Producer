@@ -1,0 +1,225 @@
+{
+	"initial_timestamp": "2017-03-30T12:00:00",
+	"initial_parameters": {
+		"maintenance_interval": "86400",
+		"maintenance_skip_slots": "3",
+		"maximum_transaction_size": "2048",
+		"maximum_block_size": "2048000000",
+		"maximum_time_until_expiration": "86400",
+		"maximum_producer_count": "1001"
+	},
+	"initial_producers": [
+		{
+			"owner_name": "firestorm",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "ironman",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "aquaman",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "phoenix",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "batman",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "wolverine",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "robin",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "batgirl",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "superman",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "hulk",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "spiderman",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "hellboy",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "daredevil",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "wakanda",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "magneto",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "rogue",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "xavier",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "storm",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "cyclops",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "beast",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		},
+		{
+			"owner_name": "juggernaut",
+			"block_signing_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV"
+		}
+	],
+	"additional_accounts": [
+		{
+			"name": "firestorm",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "ironman",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "aquaman",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "phoenix",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "batman",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "wolverine",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "robin",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "batgirl",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "superman",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "hulk",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "spiderman",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "hellboy",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "daredevil",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "wakanda",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "magneto",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "rogue",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "xavier",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "storm",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "cyclops",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "beast",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		},
+		{
+			"name": "juggernaut",
+			"owner_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"active_key": "EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+			"liquid_balance": "1000000"
+		}
+	]
+}
