@@ -1,7 +1,7 @@
 # EOS Nation BP Server Configuration
 #
-# https://eosnation.io - EOS Nation Community
-# https://eosn.io - EOS Nation BP
+# https://testnet.eosnation.io
+# https://testnet.eosn.io
 #
 
 upstream eosiod {
@@ -16,11 +16,11 @@ server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
 
-    server_name eosn.io www.eosn.io;
+    server_name testnet.eosn.io testnet.eosnation.io;
 
     # Certificate(s) and private key
-    ssl_certificate /etc/letsencrypt/live/www.eosn.io/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/www.eosn.io/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/testnet.eosnation.io/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/testnet.eosnation.io/privkey.pem;
 
     # openssl dhparam 4096 -out /etc/letsencrypt/ssl-dhparam.pem
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
@@ -37,16 +37,15 @@ server {
 }
 
 server {
-    if ($host = eosn.io) {
+    if ($host = testnet.eosn.io) {
         return 301 https://$host$request_uri;
     }
-
-    if ($host = www.eosn.io) {
+    if ($host = testnet.eosnation.io) {
         return 301 https://$host$request_uri;
     }
 
     listen 80;
     listen [::]:80;
-    server_name eosn.io www.eosn.io;
+    server_name testnet.eosn.io testnet.eosnation.io;
     return 404;
 }
